@@ -17,5 +17,6 @@ document.getElementById("save-btn").addEventListener("click", function(){
     count = 0;
     document.getElementById("count-el").innerHTML = count;
 });
-
-console.log("count: ", count);
+function reset(){
+    document.getElementById("save-el").textContent = "Previous Entries: ";
+}

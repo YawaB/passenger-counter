@@ -79,3 +79,11 @@ button {
     border: 2px solid darkgreen;
     color: darkgreen;
 }
+#reset-btn {
+    background: darkorange;
+}
+#reset-btn:hover {
+    background: none;
+    border: 2px solid darkorange;
+    color: darkorange;
+}
